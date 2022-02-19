@@ -1,8 +1,8 @@
 import kuva1 from '../assets/guitar-g397bcc17e_1920.png';
 import kuva2 from '../assets/guitar-pick-g027c520cc_1920.jpg';
 import kuva3 from '../assets/music-accessories-g29f7df3cf_1920.jpg';
-import kuva4 from '../assets/plectrum-g202c9636f_1280.png';
-import kuva5 from '../assets/pick-gc4228294c_1280.png';
+import kuva4 from '../assets/guitar-pick-ga92004b9a_1920.jpg';
+import kuva5 from '../assets/guitar-gfd95805a9_1280.jpg';
 
 export const PlektraTuotteet = [
   {
@@ -32,8 +32,8 @@ export const PlektraTuotteet = [
   {
     kuva: kuva4,
     id: 1,
-    otsikko: 'Plektrasarja',
-    hinta: 'Hinta: 20€',
+    otsikko: 'Plektra',
+    hinta: 'Hinta: 3€',
     teksti:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere praesentium unde beatae at libero minus perspiciatis, error nihil nulla qui distinctio maiores, itaque officiis veritatis.',
   },
