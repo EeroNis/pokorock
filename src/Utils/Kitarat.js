@@ -24,7 +24,7 @@ export const Kitaratuotteet = [
   },
   {
     kuva: kuva3,
-    otsikko: 'Squier Starcaster Active',
+    otsikko: 'Squier Starcaster',
     hinta: 'Hinta: 500€',
     id: 3,
     teksti:
@@ -48,7 +48,7 @@ export const Kitaratuotteet = [
   },
   {
     kuva: kuva6,
-    otsikko: 'Squier Starcaster Active',
+    otsikko: 'Squier Starcaster',
     hinta: 'Hinta: 4500€',
     id: 6,
     teksti:

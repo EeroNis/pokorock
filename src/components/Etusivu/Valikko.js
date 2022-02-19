@@ -23,10 +23,12 @@ const Valikko = () => {
             <h2 className='caption'>Vahvistimet</h2>
           </figure>
         </Link>
-        <figure className='item'>
-          <img src={kuva3} alt='kuva' />
-          <h2 className='caption'>Plektrat</h2>
-        </figure>
+        <Link to='/plektrat'>
+          <figure className='item'>
+            <img src={kuva3} alt='kuva' />
+            <h2 className='caption'>Plektrat</h2>
+          </figure>
+        </Link>
       </div>
     </div>
   );
