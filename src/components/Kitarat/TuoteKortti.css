@@ -1,0 +1,47 @@
+.tuotekorttidiv {
+  max-width: 1000px;
+
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.tuotekortti {
+  margin: auto;
+  width: 90%;
+
+  display: flex;
+}
+
+.wrapperi {
+  display: flex;
+  width: 70%;
+  border: solid 2px;
+  padding: 20px;
+}
+
+.tuotekortti img {
+  width: 30%;
+  border: solid 2px;
+}
+
+.tekstidiv {
+  width: 80%;
+
+  text-align: center;
+  margin-left: 10px;
+}
+.tekstidiv h1 {
+  word-wrap: break-word;
+}
+
+.buttondiv {
+  width: 20%;
+  margin: auto;
+  width: fit-content;
+}
+
+.buttondiv button {
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 100px;
+
+  width: 100vw;
+  background-color: black;
+  height: 300px;
+}
+
+.fsisalto {
+  padding-top: 30px;
+}
+
+.fsisalto h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.fsisalto h3 {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+}

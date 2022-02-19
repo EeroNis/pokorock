@@ -1,0 +1,15 @@
+.logodiv img {
+  height: 80px;
+}
+
+.logodiv h1 {
+  width: fit-content;
+  margin: auto;
+  color: white;
+}
+
+.logodiv {
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+}

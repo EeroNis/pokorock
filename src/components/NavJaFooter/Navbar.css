@@ -1,0 +1,59 @@
+.Navbar {
+  background-color: #e52122;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  position: relative;
+}
+.Navbarcontent {
+  max-width: 1280px;
+  margin: auto;
+}
+.NavbarList li {
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 1.6rem;
+}
+.NavbarList {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+}
+.hampurger {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  left: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+.mobileNav {
+  text-align: center;
+  padding-bottom: 20px;
+  display: none;
+}
+.mobileNav li {
+  color: white;
+  background: black;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.mobileNav a {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  .NavbarList {
+    display: none;
+  }
+  .hampurger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobileNav {
+    display: block;
+  }
+}

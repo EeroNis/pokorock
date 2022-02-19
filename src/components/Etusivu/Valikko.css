@@ -1,0 +1,43 @@
+.valikkodiv {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.valikkodiv h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tuotevalikko {
+  margin: auto;
+  max-width: 1000px;
+  width: 90%;
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.tuotevalikko img {
+  margin-top: 70px;
+  max-width: 270px;
+  width: 100%;
+  height: 200px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.caption {
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .item {
+    display: block;
+  }
+}
