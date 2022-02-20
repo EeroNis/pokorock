@@ -11,24 +11,26 @@ const Valikko = () => {
     <div className='valikkodiv'>
       <h1>Tuotteet</h1>
       <div className='tuotevalikko'>
-        <Link to='/kitarat'>
-          <figure className='item'>
+        <figure className='item'>
+          <Link to='/kitarat'>
             <img src={kuva1} alt='kuva' />
+          </Link>
+          <Link to='/kitarat'>
             <h2 className='caption'>Kitarat</h2>
-          </figure>
-        </Link>
-        <Link to='/vahvistimet'>
-          <figure className='item'>
+          </Link>
+        </figure>
+        <figure className='item'>
+          <Link to='/vahvistimet'>
             <img src={kuva2} alt='kuva' />
             <h2 className='caption'>Vahvistimet</h2>
-          </figure>
-        </Link>
-        <Link to='/plektrat'>
-          <figure className='item'>
+          </Link>
+        </figure>
+        <figure className='item'>
+          <Link to='/plektrat'>
             <img src={kuva3} alt='kuva' />
             <h2 className='caption'>Plektrat</h2>
-          </figure>
-        </Link>
+          </Link>
+        </figure>
       </div>
     </div>
   );
