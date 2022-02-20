@@ -1,5 +1,6 @@
 .logodiv img {
   height: 80px;
+  border-radius: 10px;
 }
 
 .logodiv h1 {
