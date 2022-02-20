@@ -44,7 +44,7 @@
   display: block;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 660px) {
   .NavbarList {
     display: none;
   }

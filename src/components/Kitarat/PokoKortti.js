@@ -91,7 +91,7 @@ const Wrapper = styled.div`
       }
     }
   }
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 660px) {
     max-width: 400px;
     width: 90%;
     .PokoKorttiContent {
