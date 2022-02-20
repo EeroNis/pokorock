@@ -31,7 +31,11 @@ const Wrapper = styled.div`
   width: 90%;
   border: 4px solid black;
   margin: 50px auto;
+  border-radius: 20px;
   .PokoKorttiContent {
+    background-color: whitesmoke;
+    border-radius: 17px;
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -42,11 +46,13 @@ const Wrapper = styled.div`
     max-width: 300px;
     width: 30%;
     img {
+      border-radius: 14px;
       aspect-ratio: 1/1;
       width: 100%;
     }
   }
   .tiedotContainer {
+    border-radius: 20px;
     background-color: whitesmoke;
     min-width: 400px;
     width: 70%;
