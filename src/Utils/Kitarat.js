@@ -4,6 +4,7 @@ import kuva3 from '../assets/guitar-gef29ff2eb_1920.jpg';
 import kuva4 from '../assets/guitar-g66bcb142d_1920.jpg';
 import kuva5 from '../assets/painted-guitar-g381ae4243_1920.jpg';
 import kuva6 from '../assets/guitar-gb3427d1e0_1920.jpg';
+import kuva7 from '../assets/guitar-gd06a70b1b_1920.jpg';
 
 export const Kitaratuotteet = [
   {
@@ -53,5 +54,13 @@ export const Kitaratuotteet = [
     id: 6,
     teksti:
       'Squier Starcaster Active maistuu vaikka Marekpokollekkin. Kaverisi tulevat tästä katelliseksi joten osta hyvä tuote pois. Runko on laminoitua vaahteraa vai oliko se sittenkin paahdettua sellaista. Löytyy onneksi myös jumbomutteri kultaupotuksilla joten blingblingiä löytyy tarpeeksi vaativammallekkin soittajalle. Kielet ovat nikkelipinnoitteella varustettuja.',
+  },
+  {
+    kuva: kuva7,
+    otsikko: 'Unskin vasurin  kitara',
+    hinta: 'Hinta: 400€',
+    id: 7,
+    teksti:
+      'Unskin singature luuttu klassiseen soittoon. 22 nauhan väliä riittää jannulle kuin jannulle. Yläosa massiivista kuusta ja pohja vaahteraa. Käytetty myös pähkinäpuuta. Luonnollisen saatini luonnonhartsilla. Kaula leppää. Aloittelevaan käyttöön kuin kokeneelle konkarille mainio instrumentti.',
   },
 ];
